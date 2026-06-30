@@ -8,10 +8,10 @@ import Loggedin from "./Loggedin";
 function App() {
   return (
 
-    <div className="min-h-screen bg-zinc-900 md:flex md:items-center md:justify-center">
+    <div className="min-h-screen md:bg-zinc-900 md:flex md:items-center md:justify-center">
       
    
-      <div className="w-[375px] h-[812px] bg-white relative overflow-hidden shadow-2xl md:rounded-[32px] md:border-[8px] md:border-zinc-800 flex flex-col">
+      <div className="w-full min-h-screen bg-white relative overflow-hidden flex flex-col md:w-[375px] md:h-[812px] md:min-h-0 md:rounded-[32px] md:border-[8px] md:border-zinc-800 md:shadow-2xl">
         
       
         <BrowserRouter>
