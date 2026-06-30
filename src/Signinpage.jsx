@@ -20,12 +20,12 @@ function Signinpage() {
       navigate("/loggedin");
     } else {
       
-      setError(result.error);
+      navigate("/create-account");
     }
   };
 
   return (
-    <> <div className="w-full min-h-screen bg-white"></div>
+    <>   <div className="relative w-full min-h-screen bg-white">
       {error && (
         <div className="absolute top-[10px] left-[20px] w-[335px] text-red-500 font-rubik text-sm z-50">
           {error}
@@ -49,7 +49,7 @@ function Signinpage() {
           placeholder="Enter email address"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="absolute top-[204px] left-[20px] w-[335px] h-[40px] border border-solid border-[#CBCBCB] rounded-[6px] opacity-100 placeholder:text-left placeholder:font-rubik placeholder:text-[14px] placeholder:font-normal placeholder:pl-[16px] placeholder:leading-[17px] placeholder:tracking-normal placeholder:text-[#919191] placeholder:opacity-100"
+          className="absolute top-[204px] left-[10px] right-[10px] h-[40px] border border-solid border-[#CBCBCB] rounded-[6px] opacity-100 placeholder:text-left placeholder:font-rubik placeholder:text-[14px] placeholder:font-normal placeholder:pl-[16px] placeholder:leading-[17px] placeholder:tracking-normal placeholder:text-[#919191] placeholder:opacity-100"
         ></input>
       </div>
 
@@ -62,17 +62,18 @@ function Signinpage() {
           placeholder="Enter password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="absolute top-[267px] left-[20px] w-[335px] h-[40px] border border-solid border-[#CBCBCB] rounded-[6px] opacity-100 placeholder:text-left placeholder:font-rubik placeholder:text-[14px] placeholder:font-normal placeholder:pl-[16px] placeholder:leading-[17px] placeholder:tracking-normal placeholder:text-[#919191] placeholder:opacity-100"
+          className="absolute top-[267px] left-[10px] right-[10px] h-[40px] border border-solid border-[#CBCBCB] rounded-[6px] opacity-100 placeholder:text-left placeholder:font-rubik placeholder:text-[14px] placeholder:font-normal placeholder:pl-[16px] placeholder:leading-[17px] placeholder:tracking-normal placeholder:text-[#919191] placeholder:opacity-100"
         ></input>
       </div>
 
       <button
         onClick={handleLogin}
         type="submit"
-        className="absolute cursor-pointer top-[321px] left-[20px] w-[335px] h-[46px] bg-[#CBCBCB] rounded-[6px] opacity-100 flex items-center justify-center text-center font-rubik text-[16px] font-medium leading-[17px] tracking-normal text-white"
+        className="absolute cursor-pointer top-[321px] left-[10px] right-[10px] h-[46px] bg-[#CBCBCB] rounded-[6px] opacity-100 flex items-center justify-center text-center font-rubik text-[16px] font-medium leading-[17px] tracking-normal text-white"
       >
         Login
       </button>
+      </div>
     </>
   );
 }
