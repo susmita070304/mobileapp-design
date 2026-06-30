@@ -12,6 +12,7 @@ function Createaccountpage() {
   const [password, setPassword] = useState("123456");
   const [companyName, setCompanyName] = useState("Marry Doe");
   return (
+    <div className="w-full min-h-screen bg-white">
     <div className="w-full h-full bg-white px-5 py-8 flex flex-col justify-between box-border font-rubik select-none">
       <div className="absolute top-[40px] left-[20px] w-[188px] h-[69px] text-left">
         <h1 className="text-[28px] leading-[36px] font-medium font-rubik tracking-[0px] text-[#1D2226];">
@@ -175,6 +176,7 @@ function Createaccountpage() {
           Create Account
         </span>
       </button>
+    </div>
     </div>
   );
 }

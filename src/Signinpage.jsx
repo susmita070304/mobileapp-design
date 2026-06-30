@@ -25,7 +25,7 @@ function Signinpage() {
   };
 
   return (
-    <>
+    <> <div className="w-full min-h-screen bg-white">
       {error && (
         <div className="absolute top-[10px] left-[20px] w-[335px] text-red-500 font-rubik text-sm z-50">
           {error}
@@ -73,6 +73,7 @@ function Signinpage() {
       >
         Login
       </button>
+      </div>
     </>
   );
 }
