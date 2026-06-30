@@ -6,6 +6,7 @@ function Landingpage() {
 
   return (
     <>
+    <div className="relative w-full min-h-screen bg-white">
       <div className="absolute top-[549px] left-[20px] h-[33px] w-[231px]">
         <h1 className="text-[28px] leading-[17px] font-medium text-[#1D2226] text-left">
           Welcome to PopX
@@ -30,6 +31,7 @@ function Landingpage() {
         <p className="text-[#1D2226] font-rubik font-medium text-[16px] leading-[17px]">
           Already Registered? Login
         </p>
+      </div>
       </div>
     </>
   );
