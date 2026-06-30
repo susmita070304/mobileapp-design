@@ -7,7 +7,7 @@ function Loggedin() {
 
   return (
     <>
- 
+   <div className="relative w-full min-h-screen bg-white">
 <div className="w-full min-h-screen bg-white">
  
       <div className="relative w-[375px] h-[812px] bg-[#F7F8F9] overflow-hidden">
@@ -52,6 +52,7 @@ function Loggedin() {
       <div className="absolute top-[750px] w-[400px] border-b-2 border-dashed border-gray-300" />
       </div>
       
+</div>
 </div>
     </>
   );

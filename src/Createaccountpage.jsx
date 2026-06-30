@@ -12,7 +12,7 @@ function Createaccountpage() {
   const [password, setPassword] = useState("123456");
   const [companyName, setCompanyName] = useState("Marry Doe");
   return (
-    
+    <div className="relative w-full min-h-screen bg-white">
     <div className="w-full h-full bg-white px-5 py-8 flex flex-col justify-between box-border font-rubik select-none">
       <div className=" top-[40px] left-[20px] w-[188px] h-[69px] text-left">
         <h1 className="text-[28px] leading-[36px] font-medium font-rubik tracking-[0px] text-[#1D2226];">
@@ -33,7 +33,7 @@ function Createaccountpage() {
           defaultValue="Marry Doe"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="absolute top-[140px] left-[20px] w-[335px] h-[40px] border border-[#CBCBCB] rounded-[6px] opacity-100 bg-white
+          className="absolute top-[140px] left-[10px] right-[10px]  h-[40px] border border-[#CBCBCB] rounded-[6px] opacity-100 bg-white
              text-[#1D2226] text-[13px] font-normal font-rubik tracking-[0px]
              pl-[17px] pt-[15px] pb-[13px] box-border"
         />
@@ -52,7 +52,7 @@ function Createaccountpage() {
           defaultValue="123456"
           value={phoneNumber}
           onChange={(e) => setPhoneNumber(e.target.value)}
-          className="absolute top-[209px] left-[20px] w-[335px] h-[40px] border border-[#CBCBCB] rounded-[6px] opacity-100 bg-white
+          className="absolute top-[209px] left-[10px] right-[10px]  h-[40px] border border-[#CBCBCB] rounded-[6px] opacity-100 bg-white
              text-[#1D2226] text-[13px] font-normal font-rubik tracking-[0px]
              pl-[17px] pt-[15px] pb-[13px] box-border"
         />
@@ -71,7 +71,7 @@ function Createaccountpage() {
           defaultValue="Marry Doe"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="absolute top-[278px] left-[20px] w-[335px] h-[40px] border border-[#CBCBCB] rounded-[6px] opacity-100 bg-white
+          className="absolute top-[278px] left-[10px] right-[10px]  h-[40px] border border-[#CBCBCB] rounded-[6px] opacity-100 bg-white
              text-[#1D2226] text-[13px] font-normal font-rubik tracking-[0px]
              pl-[17px] pt-[15px] pb-[13px] box-border"
         />
@@ -90,7 +90,7 @@ function Createaccountpage() {
           defaultValue="Marry Doe"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="absolute top-[347px] left-[20px] w-[335px] h-[40px] border border-[#CBCBCB] rounded-[6px] opacity-100 bg-white
+          className="absolute top-[347px] left-[10px] right-[10px] h-[40px] border border-[#CBCBCB] rounded-[6px] opacity-100 bg-white
              text-[#1D2226] text-[13px] font-normal font-rubik tracking-[0px]
              pl-[17px] pt-[15px] pb-[13px] box-border"
         />
@@ -109,7 +109,7 @@ function Createaccountpage() {
           defaultValue="Marry Doe"
            value={companyName}
           onChange={(e) => setCompanyName(e.target.value)}
-          className="absolute top-[416px] left-[20px] w-[335px] h-[40px] border border-[#CBCBCB] rounded-[6px] opacity-100 bg-white
+          className="absolute top-[416px] left-[10px] right-[10px]  h-[40px] border border-[#CBCBCB] rounded-[6px] opacity-100 bg-white
              text-[#1D2226] text-[13px] font-normal font-rubik tracking-[0px]
              pl-[17px] pt-[15px] pb-[13px] box-border"
         />
@@ -170,12 +170,13 @@ function Createaccountpage() {
         navigate("/signin");
         }}
         
-        className="absolute top-[736px] left-[20px] w-[335px] h-[46px] bg-[#6C25FF] rounded-[6px] opacity-100"
+        className="absolute top-[736px] left-[10px] right-[10px] h-[46px] bg-[#6C25FF] rounded-[6px] opacity-100"
       >
         <span className="top-[750px] left-[128px] w-[120px] h-[19px] text-center font-medium text-[16px] leading-[17px] font-rubik tracking-[0px] text-[#FFFFFF] opacity-100 ">
           Create Account
         </span>
       </button>
+    </div>
     </div>
   );
 }
