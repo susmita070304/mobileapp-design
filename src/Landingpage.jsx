@@ -6,6 +6,7 @@ function Landingpage() {
 
   return (
     <>
+    
       <div className="absolute top-[549px] left-[20px] h-[33px] w-[231px]">
         <h1 className="text-[28px] leading-[17px] font-medium text-[#1D2226] text-left">
           Welcome to PopX
@@ -19,12 +20,14 @@ function Landingpage() {
         lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
 
-      <div className="absolute top-[669px] left-[20px] bg-[#6C25FF] w-[335px] h-[46px] flex items-center justify-center rounded-[6px] cursor-pointer"  onClick={() => navigate("/create-account")} >
+    
+      <div className="absolute top-[669px] left-1/2 -translate-x-1/2 bg-[#6C25FF] w-[335px] h-[46px] flex items-center justify-center rounded-[6px] cursor-pointer"  onClick={() => navigate("/create-account")} >
         <p className="text-white text-[16px] font-medium ">Create account</p>
       </div>
-     
+      
+      
       <div 
-        className="absolute top-[725px] left-[20px] w-[335px] h-[46px] bg-[#6C25FF4B] flex items-center justify-center rounded-[6px] cursor-pointer" 
+        className="absolute top-[725px] left-1/2 -translate-x-1/2 w-[335px] h-[46px] bg-[#6C25FF4B] flex items-center justify-center rounded-[6px] cursor-pointer" 
         onClick={() => navigate("/signin")}
       >
         <p className="text-[#1D2226] font-rubik font-medium text-[16px] leading-[17px]">
