@@ -11,7 +11,7 @@ function Loggedin() {
 
  
       <div className="relative w-full h-[812px] bg-[#F7F8F9] overflow-hidden">
-      <div className="absolute top-0 left-0 w-[375px] h-[68px] bg-white bg-no-repeat box-border shadow-[0_3px_6px_rgba(0,0,0,0.027)] opacity-100">
+      <div className="absolute top-0 left-0 right-0 h-[68px] bg-white bg-no-repeat box-border shadow-[0_3px_6px_rgba(0,0,0,0.027)] opacity-100">
         <p className="absolute top-[27px] left-[15px] w-[146px] h-[22px] text-left font-rubik font-normal text-[18px] leading-[21px] tracking-[0px] text-[#1D2226] capitalize opacity-100">
           Account Settings
         </p>
@@ -48,8 +48,8 @@ function Loggedin() {
       <div>
         <p className="absolute top-[204px] left-[10px] right-[10px] h-[63px] text-left font-rubik font-normal text-[14px] leading-[22px] tracking-[0px] text-[#1D2226] capitalize opacity-100">Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam</p>
       </div>
-      <div className="absolute top-[290px] w-[400px] border-b-2 border-dashed border-gray-300" />
-      <div className="absolute top-[750px] w-[400px] border-b-2 border-dashed border-gray-300" />
+      <div className="absolute top-[290px]  w-full border-b-2 border-dashed border-gray-300" />
+      <div className="absolute top-[750px] w-full border-b-2 border-dashed border-gray-300" />
       </div>
       
 </div>
