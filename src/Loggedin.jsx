@@ -10,7 +10,7 @@ function Loggedin() {
    <div className="relative w-full min-h-screen bg-white">
 
  
-      <div className="relative w-full h-[812px] bg-[#F7F8F9] overflow-hidden">
+      <div className="relative w-full h-full bg-[#F7F8F9] overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-[68px] bg-white bg-no-repeat box-border shadow-[0_3px_6px_rgba(0,0,0,0.027)] opacity-100">
         <p className="absolute top-[27px] left-[15px] w-[146px] h-[22px] text-left font-rubik font-normal text-[18px] leading-[21px] tracking-[0px] text-[#1D2226] capitalize opacity-100">
           Account Settings
