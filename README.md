@@ -1,18 +1,65 @@
-# React + Vite
+# PopX Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive frontend implementation of the PopX UI built using React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive design
+- React Router navigation
+- Mobile-first layout
+- Clean and reusable components
+- Tailwind CSS styling
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React
+- Vite
+- Tailwind CSS
+- React Router DOM
 
-Note: This will impact Vite dev & build performances.
+## Installation
 
-## Expanding the Oxlint configuration
+Clone the repository:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+git clone <repository-url>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Folder Structure
+
+```
+src/
+├── App.jsx
+├── Landingpage.jsx
+├── Createaccountpage.jsx
+├── Signinpage.jsx
+├── Loggedin.jsx
+└── main.jsx
+```
+
+## Live Demo
+(https://mobile-application-assignment.netlify.app/)
+
+## Notes
+
+- Developed using React and Tailwind CSS.
+- Designed to closely match the provided UI.
+- Optimized for mobile and desktop responsiveness.
